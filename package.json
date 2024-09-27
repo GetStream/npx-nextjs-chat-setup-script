@@ -1,0 +1,17 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "Package to setup a next.js Stream Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Blos",
+  "license": "ISC",
+  "bin": {
+    "setup-project": "./setup-script.js"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
