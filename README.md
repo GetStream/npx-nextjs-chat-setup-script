@@ -1,4 +1,4 @@
-NPX Script for a Next.js application powered by Stream Chat
+# NPX Script for a Next.js application powered by Stream Chat
 
 This repository contains the code for an `npx` script that creates a new [Next.js](https://nextjs.org/) application. 
 It then configures [Stream Chat](https://getstream.io/chat/) with the [React SDK](https://getstream.io/chat/docs/sdk/react/). 
