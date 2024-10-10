@@ -39,9 +39,9 @@ const setupRepository = async (projectName) => {
   execCommand('npm install', { cwd: projectPath });
 
   fs.rmSync(path.join(projectPath, '.git'), { recursive: true });
-  execCommand(`'git init', { cwd: projectPath });
+  execCommand('git init', { cwd: projectPath });
   execCommand('git add .', { cwd: projectPath });
-  execCommand('git commit -m "Initial commit"', { cwd: projectPath }`);
+  execCommand('git commit -m "Initial commit"', { cwd: projectPath });
 };
 
 // Function to create a readline interface
