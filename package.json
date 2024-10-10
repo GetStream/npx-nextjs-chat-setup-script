@@ -9,7 +9,7 @@
   "author": "Stefan Blos",
   "license": "ISC",
   "bin": {
-    "setup-project": "./setup-script.js"
+    "react-chat": "./setup-script.js"
   },
   "release": {
     "branches": [
