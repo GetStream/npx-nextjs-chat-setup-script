@@ -136,8 +136,22 @@ const printOutput = (output) => {
   console.log('==================================================');
 };
 
+const supportedAppTypes = ['react-chat'];
+const checkAppType = (appType) => {
+  if (!appType) {
+    console.error(`Please provide what kind of application you want to create, supported types: ${supportedAppTypes.join(', ')}`)
+    process.exit(1);
+  } else if (!supportedAppTypes.includes(appType)) {
+    console.error(`${appType} not supported, supported application types: ${supportedAppTypes.join(', ')}`)
+    process.exit(1);
+  }
+}
+
 // Main function
 const main = async () => {
+  const appType = yargs.argv._[0];
+  checkAppType(appType);
+
   const projectName = await getProjectName();
 
   await setupRepository(projectName);

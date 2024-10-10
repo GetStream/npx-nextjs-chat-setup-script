@@ -1,5 +1,5 @@
 {
-  "name": "first-project",
+  "name": "@stream-io/create-app",
   "version": "1.0.0",
   "description": "Package to setup a next.js Stream Project",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "Stefan Blos",
   "license": "ISC",
   "bin": {
-    "react-chat": "./setup-script.js"
+    "setup-script": "./setup-script.js"
   },
   "release": {
     "branches": [
