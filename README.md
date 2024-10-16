@@ -12,6 +12,13 @@ The steps that the script takes are:
 2. Clone the [template repository](https://github.com/GetStream/nextjs-chat-template), install its dependencies and initialize a new `git` project locally
 3. Customize the repository files with custom information that the user can obtain from the [Stream Dashboard](https://dashboard.getstream.io/)
 
+
+# How to run it globally
+
+```
+npx @stream-io/create-app react-chat
+```
+
 # Running the project
 
 ## Prerequisites
@@ -46,7 +53,7 @@ And then we can run it from anywhere:
 npx react-chat
 ```
 
-## Use the Stream SDKs yourself
+# Want to use the Stream SDKs yourself?
 
 You can get started with the Stream SDKs today [for free](https://http://getstream.io/try-for-free/).
 
