@@ -6,6 +6,11 @@ on:
         description: If set to true, nothing will be published, use for testing your semantic release setup
         default: false
         type: boolean
+
+permissions:
+  actions: write
+  contents: read
+
 jobs:
   workflow:
     runs-on: ubuntu-latest
